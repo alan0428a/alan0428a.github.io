@@ -819,6 +819,25 @@ section {
   padding-bottom: 130px;
 }
 
+.contact .content{
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.contact .content h3{
+  text-align: center;
+  font-size: clamp(40px, 5vw, 40px);
+  font-family: 'Poppins', sans-serif;
+}
+.contact .content p{
+  margin: 20px 0px;
+}
+
+.contact .content .btn-send-mail{
+  margin: 20px 0px;
+  align-self: center;
+}
+
 .contact .info {
   padding: 30px;
   background: #fff;
