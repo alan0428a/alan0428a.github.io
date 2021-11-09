@@ -543,10 +543,24 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  border: 2px #DEE3E9 solid;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
+}
+
+.portfolio .portfolio-wrap .portfolio-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 28px;
+  opacity:0;
+  transition: all ease-in-out 0.3s;
+  z-index: 10;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -580,7 +594,8 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  /* width: 50%; */
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -602,6 +617,10 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-title {
+  opacity: 1;
 }
 
 /*--------------------------------------------------------------
@@ -649,6 +668,7 @@ section {
   list-style: none;
   padding: 0;
   font-size: 15px;
+  margin-bottom: 0px;
 }
 
 .portfolio-details .portfolio-info ul li + li {
@@ -671,6 +691,37 @@ section {
   padding: 0;
 }
 
+.portfolio-details .portfolio-content {
+  max-width: 800px;
+  margin: 30px auto;
+}
+.portfolio-details .portfolio-content img {
+  width: 100% !important;
+  border-style: solid;
+  border-color:rgba(0, 0, 0, 0.1);
+  margin: 10px 0px;
+}
+.portfolio-details .portfolio-content h4 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color:#6f7180;
+}
+
+.portfolio-details video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.portfolio-details .stack-wrapper ul {
+  margin-top: 10px;
+}
+
+.portfolio-details .stack-wrapper ul i {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #149ddd;
+  line-height: 0;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
