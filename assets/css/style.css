@@ -722,6 +722,18 @@ section {
   color: #149ddd;
   line-height: 0;
 }
+
+.portfolio-details .portfolio-content h2{
+  margin: 20px 0;
+}
+
+.portfolio-details .portfolio-content h4{
+  margin: 10px 0;
+}
+
+.portfolio-details .portfolio-content video{
+  margin: 0 0 20px 0;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AGV Control System</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="../assets/img/profile-img.webp" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Po-Chun Yu</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.facebook.com/alan0428a/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/fujicat39/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/pochunyu/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/alan0428a/" target="_blank" class="github"><i class="bx bxl-github"></i></a>          
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="../index.html#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="../index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="../index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="../index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+          <li><a href="../index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Project Details</h2>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li>Project Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-8  d-flex align-content-center">
+              <video muted autoplay loop playsinline>
+                <source src="../assets/video/nav-auto-speedup.mp4" type="video/mp4" >
+              </video>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Robotic</li>
+                <li><strong>Name</strong>: AGV Control System</li>
+                <li><strong>Project date</strong>: October, 2021</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/alan0428a/ros2-factory-navigation" target="_blank">github.com/alan0428a/ros2-factory-navigation</a></li>
+                <li><strong>Tech Stacks</strong>:
+                <div class="stack-wrapper">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i>ROS2</li>
+                    <li><i class="bi bi-chevron-right"></i>NAV2</li>
+                    <li><i class="bi bi-chevron-right"></i>SLAM</li>
+                    <li><i class="bi bi-chevron-right"></i>AMCL</li>
+                    <li><i class="bi bi-chevron-right"></i>ROS-Web-Bridge</li>
+                    <li><i class="bi bi-chevron-right"></i>Ubuntu</li>
+                  </ul>
+                </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr/>
+      <div class="portfolio-content">
+        <h2>
+          AGV control system using ROS2 & NAV2!
+        </h2>
+        <p>
+          This project is a Proof-of-Concept and also my learning path of 
+          <a href="https://docs.ros.org/en/foxy/index.html" target="_blank">ROS2</a> & 
+          <a href="https://navigation.ros.org/" target="_blank">NAV2</a>. It demonstrates a scenario that multiple 
+          AGVs unload/load packages parallelly. <span style="color: darkgray;">(Because of the CPU resource 
+            limitation, I only simulate one AGV)</span>. The system utilizes ROS2 and NAV2 framework 
+            to control the agv. The system has a traffic control node to handle the access at unloading zone. It 
+            also provides a simple web dashboard to see the current status.
+        </p>
+        <h4>Mapping</h4>
+        <video muted autoplay loop playsinline>
+          <source src="../assets/video/nav-mapping-speedup.mp4" type="video/mp4" >
+        </video>
+        <p>The first step for navigation is to create the map. I have created a factory simulation scene using Gazebo. 
+          And I used the TurtleBot3 Waffle Pi robot for simulation purposes. Then, I controlled the robot to travel 
+          around the scene. Thanks to the cartographer_node, which is the SLAM node used for online & real-time SLAM, 
+          the map will be generated by collecting sensor and imu data. </p>
+
+        <h4>Localization</h4>
+        <video muted autoplay loop playsinline>
+          <source src="../assets/video/nav-localization-speedup.mp4" type="video/mp4" >
+        </video>
+        <!-- <img src="../assets/img/portfolio/production-server-2-cut.webp" alt=""> -->
+        <p>
+          When a robot is placed into an environment, it does not know where it is. This is where Adaptive Monte Carlo 
+          Localization (AMCL) comes in. AMCL is a probabilistic localization module which estimates the position and 
+          orientation (i.e. Pose) of a robot in a given known map. By leveraging the nav2_amcl node, the robot will 
+          finally find(or believe) its position on the map.
+        </p>
+        <p>
+          The small green points on the map represent the probability of the robot at that position. It will gradually 
+          converge to the actual position where the robot is at, if you move the robot aroud to let it collect more sensor 
+          data.
+        </p>
+
+        <h4>Navigation</h4>
+        <video muted autoplay loop playsinline>
+          <source src="../assets/video/nav-navigation-speedup.mp4" type="video/mp4" >
+        </video>
+        <p>With the help of NAV2 stacks, robot navigation becomes an easy task. It plans the best route based on 2 maps, 
+          the local map, and the global map. The local map is generated by collecting real-time sensor data on the robot. 
+          Therefore the robot can avoid colliding with obstacles that are not recorded on the map. Another global map is 
+          generated based on the map previously made. 
+        </p>
+
+        <h4>Bring all together!</h4>
+        <video muted autoplay loop playsinline>
+          <source src="../assets/video/nav-auto-speedup.mp4" type="video/mp4" >
+        </video>
+        <p>
+          The scene is to simulate multiple AGVs parallelly carrying packages from packaging stations to a single unloading 
+          zone. To control the access of the unloading zone, I have built a traffic control node to handle the requests from 
+          AGVs. When the traffic control node receives a request, it will check the availability of the unloading zone. If 
+          the zone is occupied, it will ask the AGV to wait and publish the permission after the zone is free.
+
+        </p>
+        <p>
+          To easily understand the status of the system, I built a web dashboard and use the 
+          <a href="https://github.com/RobotWebTools/rosbridge_suite" target="_blank">ROS_WEB_BRIDGE</a> to subscribe 
+          messages from the system.
+        </p>
+
+        
+
+        
+        
+      </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
