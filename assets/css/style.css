@@ -242,6 +242,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+#hero h2 {
+  margin: 0 0 10px 0;
+  font-size: 55px;
+  line-height: 56px;
+  color: #fff;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 #hero p {
   color: #fff;
   margin-bottom: 50px;
